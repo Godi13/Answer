@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif; }
+
+header {
+  height: 51px;
+  background-color: #272B2E; }
+
+nav {
+  height: 35px;
+  -webkit-box-shadow: 0 1px 0.2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1px 0.2px rgba(0, 0, 0, 0.5); }
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+li {
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 35px;
+  color: #666; }
+
+img {
+  display: block;
+  width: 100%; }
+
+object {
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  padding-top: 5px; }
