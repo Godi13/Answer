@@ -1,0 +1,33 @@
+nav.jzdh{
+  background-color: rgba(150,150,150,0.7);
+
+  li:nth-child(2) a{
+    color: #222;
+  }
+
+  a{
+    color: #444;
+    &:hover {
+      color: #333;
+    }
+    &:visited {
+      color: #444;
+    }
+  }
+}
+
+header.header{
+  background-color: rgba(40,40,40,.85);
+}
+
+#jz {
+  background:transparent url('http://7xoblm.com1.z0.glb.clouddn.com/jzdh/jianzhudonghua_01_03.jpg') left top repeat;
+  background-size: 100%;
+  li:last-child {
+    img{
+      width: 40%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  }
+}

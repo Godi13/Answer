@@ -1,0 +1,17 @@
+nav.jzxgt{
+  background-color: rgba(150,150,150,0.7);
+
+  li:nth-child(3) a{
+    color: #222;
+  }
+
+  a{
+    color: #444;
+    &:hover {
+      color: #333;
+    }
+    &:visited {
+      color: #444;
+    }
+  }
+}
