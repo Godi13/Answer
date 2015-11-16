@@ -158,7 +158,10 @@ body.afh {
   margin: 110px auto 15px;
   width: 20%;
   -webkit-border-radius: 50%;
-          border-radius: 50%; }
+          border-radius: 50%;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 1.5px 2px 0.8px rgba(0, 0, 0, 0.4);
+          box-shadow: 1.5px 2px 0.8px rgba(0, 0, 0, 0.4); }
 
 .afh-header li:nth-child(2) img {
   width: 30%;
@@ -224,6 +227,29 @@ body.afh {
     .afh-xgt img.fengefu:first-child {
       margin: 0 auto;
       padding: 20px 0 0; }
+
+.zybs-sjgn > img:first-child {
+  margin-top: 6px;
+  margin-left: 6px;
+  width: 25% !important;
+  padding-left: 15px !important; }
+
+.zybs-sjgn > img:nth-child(2) {
+  margin-right: 10px;
+  padding: 5px;
+  -webkit-box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 0.4); }
+
+.zybs-sjgn > img:nth-child(3) {
+  float: left;
+  width: 44%;
+  margin-left: 5px; }
+
+.zybs-sjgn > img:last-child {
+  float: right;
+  width: 51% !important;
+  margin-right: 11px !important;
+  border: 0px dotted transparent !important; }
 
 body.bj {
   background: url("http://7xoblm.com1.z0.glb.clouddn.com/images/bg.jpg"); }

@@ -1,0 +1,99 @@
+body.afh {
+  background-color: #eee;
+  img[src*=jpg] {
+    padding: 5px;
+    box-shadow: 2px 2px 0.5px rgba(0,0,0,.4);
+  }
+}
+
+.afh-header {
+  // 圆圈
+  li:first-child img{
+    margin: 110px auto 15px;
+    width: 20%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 1.5px 2px 0.8px rgba(0,0,0,.4);
+  }
+  li:nth-child(2) img {
+    width: 30%;
+    margin: 0 auto;
+  }
+  li:nth-last-child(2) img {
+    width: 75%;
+    margin: 20px auto 0;
+    border-top: 2px solid #ccc;
+    padding: 20px;
+  }
+  li:last-child img {
+    width: 55%;
+    margin: 0 auto 15px;
+  }
+
+}
+
+.table-afh {
+  border-bottom: 0px dotted transparent;
+}
+
+.afh-sm {
+  img {
+    &:nth-of-type(1) {
+      margin-top: 20px;
+      float: left;
+      margin-left: 5px;
+      width: 70%;
+    }
+    &:nth-of-type(2) {
+      float: right;
+      margin: 35px 9px 0 0;
+      width: 26%;
+    }
+  }
+}
+
+.afh-sm2 img {
+  &:nth-of-type(1) {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  &:nth-of-type(2) {
+    margin: 10px auto 25px;
+    padding-bottom: 15px;
+    width: 99%;
+  }
+}
+
+.afh-sjgn>img {
+  &:first-child {
+    margin-top: 15px;
+  }
+  &:nth-child(2) {
+    margin-right: 10px;
+  }
+  &:nth-child(3) {
+    float: left;
+    width: 44%;
+    margin-left: 5px;
+  }
+  &:last-child {
+    float: right;
+    width: 51% !important;
+    margin-right: 11px !important;
+    border: 0px dotted transparent !important;
+  }
+}
+
+.afh-xgt img{
+  margin: 10px auto;
+  width: 98%;
+  &.fengefu {
+    &:first-child {
+      margin: 0 auto;
+      padding: 20px 0 0;
+    }
+    margin: 20px auto;
+    width: 55%;
+  }
+}
