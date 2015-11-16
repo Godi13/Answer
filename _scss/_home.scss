@@ -1,0 +1,18 @@
+
+.logo img {
+  &:first-child {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+  }
+  &:nth-child(2) {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 80%;
+  }
+  &:last-child {
+    z-index: -1;
+  }
+}

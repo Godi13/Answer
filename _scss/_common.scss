@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  &:hover {
+    color: #444;
+  }
+  &:visited {
+    color: #666;
+  }
+}

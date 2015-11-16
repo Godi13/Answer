@@ -1,0 +1,30 @@
+
+nav {
+  position: fixed;
+  top: 43px;
+  width: 100%;
+  background-color: rgba(20,20,20,0.7);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: box;
+  display: flexbox;
+  display: flex;
+  box-orient: horizontal;
+  flex-flow: row nowrap;
+  box-pack: justify;
+  flex-pack: distribute;
+  justify-content: space-around;
+  li {
+    display: inline;
+    margin-left: 10px;
+    text-overflow: display;
+    font-size: .85em;
+    list-style-type: none;
+    line-height: 35px;
+  }
+}
