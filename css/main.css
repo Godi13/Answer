@@ -152,7 +152,7 @@ nav.jzxgt {
     nav.jzxgt a:visited {
       color: #444; }
 
-body.hyjy {
+body.bj {
   background: url("http://7xoblm.com1.z0.glb.clouddn.com/images/bg.jpg"); }
 
 nav.jzdh-hei li:nth-child(2) a {
@@ -163,7 +163,7 @@ nav.jzdh-hei li:nth-child(2) a {
   width: 20%;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  border: 3.2px solid #bbb; }
+  border: 5px solid #ccc; }
 
 .hyjy-header li:nth-child(2) img {
   width: 30%;
@@ -230,3 +230,10 @@ ul.jingtou li img {
   padding: 10px 0;
   border-top: 2px dotted #333;
   width: 98%; }
+
+table.jylw {
+  width: 93%; }
+  table.jylw .da img {
+    width: 95%; }
+  table.jylw .xiao1 img {
+    margin-bottom: 20px; }

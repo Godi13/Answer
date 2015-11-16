@@ -1,4 +1,4 @@
-body.hyjy {
+body.bj {
   background:url('http://7xoblm.com1.z0.glb.clouddn.com/images/bg.jpg');
 }
 
@@ -9,11 +9,12 @@ nav.jzdh-hei {
 }
 
 .hyjy-header {
+  // 圆圈
   li:first-child img{
     margin: 110px auto 15px;
     width: 20%;
     border-radius: 50%;
-    border: 3.2px solid #bbb;
+    border: 5px solid #ccc;
   }
   li:nth-child(2) img {
     width: 30%;
