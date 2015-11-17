@@ -98,7 +98,7 @@ nav.cpdh li:first-child a {
   background: url("http://7xoblm.com1.z0.glb.clouddn.com/images/bg.jpg") left top; }
   .show img:first-child {
     z-index: -1; }
-  .show img:last-child {
+  .show div > img:last-child {
     display: block;
     margin: 0 auto;
     padding: 10px 0;
@@ -336,3 +336,21 @@ table.jylw {
     width: 95%; }
   table.jylw .xiao1 img {
     margin-bottom: 20px; }
+
+.BJ img:first-child {
+  height: 79px; }
+
+.BJ .white {
+  height: 79px;
+  background-color: #ccc; }
+
+nav.air {
+  background-color: rgba(150, 150, 150, 0.7); }
+  nav.air li:nth-child(1) a {
+    color: #222; }
+  nav.air a {
+    color: #555; }
+    nav.air a:hover {
+      color: #333; }
+    nav.air a:visited {
+      color: #555; }

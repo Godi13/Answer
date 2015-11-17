@@ -1,0 +1,24 @@
+.BJ {
+  img:first-child {
+    height: 79px;
+  }
+  .white {
+    height: 79px;
+    background-color: #ccc;
+  }
+}
+nav.air {
+  background-color: rgba(150,150,150,0.7);
+  li:nth-child(1) a {
+    color: #222;
+  }
+  a {
+    color: #555;
+    &:hover {
+      color: #333;
+    }
+    &:visited {
+      color: #555;
+    }
+  }
+}
